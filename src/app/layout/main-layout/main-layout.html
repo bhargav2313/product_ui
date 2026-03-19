@@ -1,1 +1,25 @@
-<p>main-layout works!</p>
+<div class="layout">
+
+  <div class="header">
+    Product Approval System
+  </div>
+
+  <div class="body">
+
+    <div class="sidebar">
+      <ul>
+        <li routerLink="/dashboard">Dashboard</li>
+        <li routerLink="/users">Users</li>
+        <li routerLink="/product-approvals">productlist</li>
+        <li routerLink="/approval-config">Approvals</li>
+        <li routerLink="/product-status">Product Status</li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+
+</div>
